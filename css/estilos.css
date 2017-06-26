@@ -24,3 +24,37 @@ a:hover {
 
 
 /*--- Header ---*/
+header {
+	width: 100%;
+	float: left;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e4e0e0+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #e4e0e0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#e4e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#e4e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 ); /* IE6-9 */
+}
+
+#subheader {
+	width: 960px;
+	margin: auto;
+}
+
+#logotipo {
+	float: left;
+	width: 300px;
+	padding: 10px 0px;
+}
+
+#logotipo a {
+	font-family: sourcesans-light;
+	font-size: 50px;
+	color: #000;
+}
+
+#logotipo a:hover {
+	text-decoration: none;
+}
+
+/*--- Menu ---*/
+
