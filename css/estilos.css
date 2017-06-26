@@ -1,0 +1,26 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*--- Estilos generales ---*/
+body {
+	background: #2d2d2d;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 960;
+	margin: auto;
+	clear: both;
+}
+
+
+/*--- Header ---*/
