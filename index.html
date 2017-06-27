@@ -5,8 +5,19 @@
 		<meta name="description" content="Aqui toda nuestra descripcion">
 		<meta name="keywords" content="Aqui, Palabras, Clave">
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  		<script src="js/jquery.slides.min.js"></script>
+
+		<script>
+    		$(function(){
+      		$("#slideshow").slidesjs();
+    		});
+  		</script>
+
 		<title>Titulo de nuestra web</title>
 	</head>
+
+	<body>
 
 		<header>
 			<div id="subheader">
@@ -25,20 +36,24 @@
 			
 			<section id="main">
 				
-				<section id="slideshow"></section>
+				<section id="slideshow">
+						<div><a href="#"><img src="imagenes/slideshow/ciudad(5).jpg" alt=""></a></div>
+						<div><a href="#"><img src="imagenes/slideshow/ciudad(8).jpg" alt=""></a></div>
+						<div><a href="#"><img src="imagenes/slideshow/ciudad(9).jpg" alt=""></a></div>	
+				</section>
 
 				<section id="bienvenidos">
 					<article>
 						<hgroup>
-							<h2>Bienvenido a nuestro sitio web</h2>
+							<h3>Bienvenido a nuestro sitio web</h3>
 						</hgroup>
 						<p>
 							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-								<li>Aenean vulputate magna eu tellus malesuada, quis varius ante lobortis.</li>
-								<li>Nulla aliquam nibh non orci pellentesque, non porttitor sapien convallis.</li>
-								<li>Sed interdum nibh et aliquet egestas.</li>
-								<li>Ut eget massa quis lorem lacinia laoreet id a turpis.</li>
+								<li>+ Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+								<li>+ Aenean vulputate magna eu tellus malesuada, quis varius ante lobortis.</li>
+								<li>+ Nulla aliquam nibh non orci pellentesque, non porttitor sapien convallis.</li>
+								<li>+ Sed interdum nibh et aliquet egestas.</li>
+								<li>+ Ut eget massa quis lorem lacinia laoreet id a turpis.</li>
 							</ul>
 						</p>
 					</article>
@@ -53,9 +68,8 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
 						</hgroup>
 					</article>
 
@@ -67,9 +81,8 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							consequat.<br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
 						</hgroup>
 					</article>
 				</section>
@@ -120,9 +133,7 @@
 
 			<div id="copyright"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor </p></div>
 
-		</section>
-
-	<body>
+		</section>	
 
 	</body>
 </html>
